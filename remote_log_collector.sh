@@ -23,5 +23,5 @@ exit 0
 EOF
 
 # This will copy the tar file from remote to local.(server2 to server1)
-scp ubuntu@52.66.247.97:/home/ubuntu/remote_server_log_files.tar .
+scp ubuntu@172.31.3.82:/home/ubuntu/remote_server_log_files.tar .
 exit 0
