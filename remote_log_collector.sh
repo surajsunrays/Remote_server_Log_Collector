@@ -11,7 +11,7 @@ ssh-add Jenkins_demo_server.pem
 # Change the below ip with your ip addresses.
 # Connecting to the remote server
 ssh ubuntu@172.31.3.82 <<"EOF"
-# Searching the latest log files not older than 60 min
+# Searching the latest log files not older than 10 min
 files=`sudo find /tmp/ -name "*.log" -mmin -10`
 
 # creating the tar of log files
