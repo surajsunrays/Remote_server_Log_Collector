@@ -22,7 +22,10 @@ Before setting the cronjob , check the file has executable permission. Then set 
 ##### 1. To add crontab for the user, use 
 ```crontab -e ```
 ##### 2. Then add the following line at the end of file
+
 This will execute bash script in every 5 minute.<br>
-``` */5 * * * * /home/ubuntu/remote_log_collector.sh ```<br>
+
+``` */5 * * * * /home/ubuntu/remote_log_collector.sh ```
+<br>
 ------------------------------------------------------------------------------------------------
 Note: Make sure that .pem file is available on server1
